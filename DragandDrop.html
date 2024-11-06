@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Game</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <script src="indexScript.js" defer></script> 
+</head>
+<body>
+    <header><h1>Basketball Game</h1></header>
+    <div class="gameContainer">
+        <!-- Draggable basketballs -->
+        <div class="basketball" draggable="true" id="ball1">Ball 1</div>
+        <div class="basketball" draggable="true" id="ball2">Ball 2</div>
+        <div class="basketball" draggable="true" id="ball3">Ball 3</div>
+        <div class="basketball" draggable="true" id="ball4">Ball 4</div>
+        <div class="basketball" draggable="true" id="ball1">Ball 5</div>
+        <div class="basketball" draggable="true" id="ball2">Ball 6</div>
+        <div class="basketball" draggable="true" id="ball3">Ball 7</div>
+        <div class="basketball" draggable="true" id="ball4">Ball 8</div>
+        <div class="basketball" draggable="true" id="ball3">Ball 9</div>
+        <div class="basketball" draggable="true" id="ball4">Ball 10</div>
+
+    </div>
+    
+    <!-- Hoop Container (with ring) -->
+    <div class="hoopContainer">
+        <div class="hoop-ring" id="hoop"></div>
+    </div>
+
+    <div class="remarks">
+        <p id="remarks"></p>
+    </div>
+    
+    <div class="score">
+        Score: <p id="scores">0</p>
+    </div>
+
+    <div class="missed">
+        Missed Shots: <p id="missed">0</p>
+        <p id="highScore">High Score: 0</p>
+        <button id="resetButton">Reset Game</button>
+        <div class="timer">
+            Time Left: <span id="timer">180</span> seconds
+        </div>
+        
+    </div>
+    <footer>
+        <p>Design by: <span class="designer-name">Bismark L. De Asis</span></p>
+    </footer>
+</body>
+</html>
